@@ -38,20 +38,20 @@ h2 {
 
 #title {
     color: rgb(42, 42, 185);
-    margin-top: 25rem;
-    margin-left: 25%;
+    margin-top: 15rem;
+    margin-left: 30%;
     text-shadow: 0 0 20px white;
     z-index: -1;
 }
 
 #location {
 text-transform: uppercase;
-margin-left: 30%;
+margin-left: 40%;
 margin-bottom: 30rem;
 }
 
 #face {
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-left: 10%;
     z-index: -2;
     position: absolute;
