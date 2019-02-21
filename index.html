@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welsh Resume</title>
+    <style>
+        @font-face {
+            font-family: "PlayfairDisplay-Bold";
+            src: url("F:/Programming/Covalence/1IntroToWebDev/LabImplementing/PlayFairDisplay-Bold.woff") format("woff");
+        }
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col d-inline-flex">
+                <div class="header-left">
+                    <img id="globe" src="F:\Programming\Covalence\1IntroToWebDev\LabImplementing\worldLogo.png" alt="" height="50rem">
+                    <h2 id="name">Christine Welsh</h2>
+                </div>
+                <nav class="navbar navbar-expand-lg navbar-light ml-auto">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#midpanel">About
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#row4">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#row5">Links</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#text">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row d-inline" id="toppanel">
+            <img src="F:\Programming\Covalence\1IntroToWebDev\LabImplementing\Photo.png" alt="" height="500rem" id="face">
+            <h1 id="title">Full Stack Web Developer</h1>
+            <h2 id="location">Currently in Redondo Beach, CA</h2>
+        </div>
+        <div class="row" id="midpanel">
+            <div class="col d-inline-flex bg-light justify-content-center my-5 p-5">
+                <h1 id="aboutme">About Me</h1>
+                <h3 id="textbox">I completed an online degree in Full Stack Engineering at Covalence.io in January, 2019. I have created various
+                    applications using Bootstrap, Python, and JavaScript with AJAX. I also have several years' experience as a math teacher.
+                    See details of my work and links to my projects below.</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center" id="row4">
+            <div class="col-3 p-5">
+                <h2 id="mathteach">Math Teacher</h2>
+                <ul class="info">
+                    <li>Castro Valley High School</li>
+                    <li>Clayton Valley Charter High School, Concord CA</li>
+                    <li>Foothill High School, Pleasanton CA</li>
+                </ul>
+                <h2 class="info">Six years leadership experience with 8th through 12th grade students in math ranging from pre-algebra to
+                    integrated math 2</h2>
+            </div>
+            <div class="col-3 p-5">
+                <h2 id="ed">Education</h2>
+                <ul class="info">
+                    <li>Full Stack Web Dev Certification; Covalence.io</li>
+                    <li>California Mathematics Credential; Patten University</li>
+                    <li>Technical Writing Certification; San Francisco State University</li>
+                    <li>Bachelor's in Environmental Studies; Cal State University Hayward</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row justify-content-center" id="row5">
+            <div class="col-2">
+                <div class="card" id="card">
+                    <a href="https://github.com/ChristyCakes" target="_blank">
+                        <img class="card-img-top" src="F:\Programming\Covalence\1IntroToWebDev\LabImplementing\github.png" alt="Card image cap">
+                    </a>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card">
+                    <a href="https://covalence.io/online/full-stack-development-bootcamp/" target="_blank">
+                        <img class="card-img-top" src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/3708/s300/covalence-stacked-600.jpg"
+                            alt="Card image cap">
+                    </a>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card">
+                    <a href="http://www.cv.k12.ca.us/cvhs/academics/departments/mathematics" target="_blank">
+                        <img class="card-img-top" src="data:image/png;base64,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"
+                            alt="Card image cap">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row bg-light" id="row6">
+                <div class="col">
+                    <h1>Contact</h1>
+                    <form>
+                        <div class="form-group">
+                            <label for="text"></label>
+                            <input type="text" class="form-control" id="text" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1"></label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                            <label for="message"></label>
+                            <textarea type="message" class="form-control" id="message" placeholder="Message" cols="30" rows="10"></textarea>
+                        </div>
+                        <button type="submit" class="btn float-right">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
