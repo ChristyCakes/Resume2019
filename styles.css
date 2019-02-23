@@ -2,10 +2,6 @@ body {
     font-family: "PlayfairDisplay-Bold";
 }
 
-#globe {
-    padding: 3%;
-}
-
 #name {
     display: inline;
     color: rgb(42, 42, 185);
@@ -47,7 +43,7 @@ h2 {
 #location {
 text-transform: uppercase;
 margin-left: 40%;
-margin-bottom: 20rem;
+margin-bottom: 15rem;
 }
 
 #face {
@@ -78,10 +74,6 @@ ul {
     color: grey
 }
 
-#row4, #row5, #row6 {
-    margin: 10rem 0;
-}
-
 ul {
     margin-top: 1rem;
 }
@@ -102,4 +94,8 @@ input {
 .btn {
     background-color: rgb(42, 42, 185);
     color: white;
+}
+
+.column {
+    flex-direction: column; 
 }
