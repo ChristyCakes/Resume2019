@@ -1,5 +1,5 @@
 body {
-    font-family: "PlayfairDisplay-Bold";
+    font-family: "PlayfairDisplay";
 }
 
 #name {
@@ -96,4 +96,12 @@ h3 {
     color: rgb(42, 42, 185);
     font-size: 1em;
     text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h3:hover {
+    color: grey;
 }
