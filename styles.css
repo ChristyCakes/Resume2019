@@ -107,11 +107,6 @@ h3:hover {
     color: grey;
 }
 
-.proj:hover {
-    opacity: 0.6; 
-
-}
-
 .grow { 
     transition: all .5s ease-in-out; 
 }
@@ -141,6 +136,7 @@ h3:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    width: 85%;
   }
   
 .container:hover .startimage {
