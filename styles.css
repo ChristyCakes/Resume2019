@@ -1,5 +1,6 @@
 body {
-    font-family: "PlayfairDisplay";
+    /* font-family: "PlayfairDisplay"; */
+    font-family: 'Varela Round', sans-serif;
 }
 
 #name {
@@ -105,3 +106,54 @@ a:hover {
 h3:hover {
     color: grey;
 }
+
+.proj:hover {
+    opacity: 0.6; 
+
+}
+
+.grow { 
+    transition: all .5s ease-in-out; 
+}
+
+.grow:hover { 
+    transform: scale(1.1); 
+}
+
+.container {
+    padding: 0;
+}
+
+.startimage {
+    opacity: 1;
+    /* display: block; */
+    /* width: 100%; */
+    /* height: auto; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+.container:hover .startimage {
+    opacity: 0.3;
+  }
+  
+.container:hover .middle {
+    opacity: 1;
+  }
+  
+.text, .rainy {
+    background-color: lightgrey;
+    color: rgb(42, 42, 185);
+    font-size: 16px;
+    padding: 16px 32px;
+  }
