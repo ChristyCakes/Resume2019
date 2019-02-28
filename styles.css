@@ -147,9 +147,16 @@ h3:hover {
     opacity: 1;
   }
   
-.text, .rainy {
+.rainy {
     background-color: lightgrey;
     color: rgb(42, 42, 185);
     font-size: 24px;
-    padding: 16px 32px;
+    padding: 0;
+  }
+
+.text{
+    background-color: lightgrey;
+    color: rgb(42, 42, 185);
+    font-size: 24px;
+    padding: 2rem;
   }
