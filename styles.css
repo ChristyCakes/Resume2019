@@ -150,13 +150,14 @@ h3:hover {
 .rainy {
     background-color: lightgrey;
     color: rgb(42, 42, 185);
-    font-size: 24px;
+    font-size: 18px;
     padding: 0;
+    margin: 0;
   }
 
 .text{
     background-color: lightgrey;
     color: rgb(42, 42, 185);
-    font-size: 24px;
+    font-size: 18px;
     padding: 2rem;
   }
