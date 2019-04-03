@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta   name="keywords"   content="resume, web developer, programmer, code, engineer, HTML, CSS, JavaScript, Node, React, Express, SQL, MongoDB, AWS, Heroku, Git, Python, Java">
+    <meta name="keywords"
+        content="resume, web developer, programmer, code, engineer, HTML, CSS, JavaScript, Node, React, Express, SQL, MongoDB, AWS, Heroku, Git, Python, Java">
     <title>Welsh Resume</title>
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
@@ -46,12 +47,14 @@
         <div class="row d-inline" id="toppanel">
             <img src="./images/photo.png" alt="" height="500rem" id="face">
             <div id='panel'>
-                <h1 id="me">Christy Welsh</h1>
-                <h2 id="title">Full Stack Web Developer</h2>
+                <div id='nameandin'>
+                    <h1 id="me">Christy Welsh</h1>
+                    <a href="https://www.linkedin.com/in/christy-welsh-3636597a/" target="_blank">
+                        <img class="p-4 grow" src="./images/linkedin.jpg " alt="linkedin" width="100px" height="100px">
+                    </a>
+                </div>
+                <h4 id="title">Full Stack Web Developer</h4>
                 <a id='resume' target="_blank" href='./resume.pdf'>Resume</a>
-                <a href="https://www.linkedin.com/in/christy-welsh-3636597a/" target="_blank">
-                    <img class="p-4 grow" src="./images/linkedin.jpg " alt="linkedin" width="100px" height="100px">
-                </a>
             </div>
         </div>
 
@@ -179,7 +182,7 @@
                         </div>
                     </div>
                     <!-- <div class="col-3"> -->
-                        <!-- <div class="card m-3" id="card">
+                    <!-- <div class="card m-3" id="card">
                         <a href="https://github.com/ChristyCakes/VerseApp" target="_blank">
                             <div class="container">
                                 <img class="card-img-top border-0 startimage" src="./images/github.png"
@@ -317,10 +320,25 @@
             </div>
         </div> -->
 
-
+        <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
 
     </div>
+    <script>
+        window.onscroll = function () { scrollFunction() };
 
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("topBtn").style.display = "block";
+            } else {
+                document.getElementById("topBtn").style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
