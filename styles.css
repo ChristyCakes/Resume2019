@@ -224,6 +224,13 @@ h3:hover {
     background-color: #555;
   }
 
+  .bold {
+      font-weight: bold;
+  }
+
+  .italic {
+      font-style: italic;
+  }
 
 /***************** timeline ******************/
 .main-timeline{position:relative}
