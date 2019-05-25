@@ -174,7 +174,7 @@ h3:hover {
 .rainy {
     background-color: lightgrey;
     color: rgb(42, 42, 185);
-    font-size: 20px;
+    font-size: 15px;
     padding: 0;
     margin: 0;
   }
@@ -182,7 +182,7 @@ h3:hover {
 .text{
     background-color: lightgrey;
     color: rgb(42, 42, 185);
-    font-size: 20px;
+    font-size: 15px;
     padding: 2rem;
   }
 
