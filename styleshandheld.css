@@ -1,34 +1,84 @@
 body {
-    font-family: 'Varela Round', sans-serif;
     box-sizing: border-box;
-}
-
-#name {
-    display: inline;
-    color: rgb(42, 42, 185);
-    vertical-align: middle;
-}
-
-#resume:hover {
-    color: rgb(42, 42, 185);
-    font-style: italic;
-}
-
-#nameandin {
-    display: flex;
-    align-items: flex-end;
-}
-
-#topBtn:hover {
-    background-color: #555;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .bold {
     font-weight: bold;
 }
 
-.italic {
+.btn {
+    background-color: rgb(42, 42, 185);
+    color: white;
+}
+
+#cap {
+    text-transform: uppercase;
+    text-align:center;
+    /* margin:30px 0; */
+}
+
+.card-img-top {
+    border: 0.25rem solid lightgrey;
+}
+
+.chirper {
+    font-size: 75%;
+}
+
+.column {
+    flex-direction: column; 
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+.description a:hover{
     font-style: italic;
+}
+
+#face {
+    /* margin-top: 5rem;
+    margin-left: 10%;
+    z-index: -2;
+    position: absolute; */
+    border: 0.25rem solid lightgrey;
+    height: 100%;
+}
+
+form {
+    /* margin-left: 20%; */
+    width: 60%;
+}
+
+.grow { 
+    transition: all .5s ease-in-out; 
+    height: 5em;
+    width: 5em;
+}
+
+.grow:hover { 
+    transform: scale(1.1); 
+}
+
+h1 {
+    font-size: 185%;
+}
+
+h2 {
+    font-size: .5em;
+    font-weight: bold;
+}
+
+h3 {
+    color: rgb(42, 42, 185);
+    font-size: 1em;
+    text-align: center;
+}
+
+h4 {
+    font-size: 120%;
 }
 
 .info, #textbox {
@@ -39,9 +89,38 @@ input {
     font-style: italic;
 }
 
-.red a:link, .red a:visited {
-    color: #f54957;
-    font-weight: bold;
+.italic {
+    font-style: italic;
+}
+
+#links, #projects {
+    background-color: rgb(166, 178, 206);
+}
+
+#me {
+    color: rgb(42, 42, 185);
+    /* margin-top: 15rem; */
+    /* margin-left: 45%; */
+    text-shadow: 0 0 20px white;
+    /* z-index: -1; */
+}
+
+#name {
+    color: rgb(42, 42, 185);
+    display: inline;
+    vertical-align: middle;
+}
+
+#nameandin {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    border-bottom: 0.25rem solid rgb(42, 42, 185);
+    /* padding:0 3rem; */
+    display: inline;
+    /* margin: 0.5rem; */
 }
 
 .orange a:link, .orange a:visited{
@@ -49,165 +128,16 @@ input {
     font-weight: bold;
 }
 
-#resume {
-    margin-left: 57%;
-    color: grey;
-    font-weight: bold;
-}
-
 #panel {
-    margin-bottom: 10rem;
-}
-
-.nav-item {
-    border-bottom: 0.25rem solid rgb(42, 42, 185);
-    padding:0 3rem;
-    display: inline;
-    margin: 0.5rem;
-}
-
-.navbar {
-    margin-right: 10rem;
-}
-
-h1 {
-    font-size: 5em;
-}
-h2 {
-    font-size: 2.5em;
-    font-weight: bold;
-}
-
-h4 {
-    font-size: 1.5em;
-}
-
-#me {
-    color: rgb(42, 42, 185);
-    margin-top: 15rem;
-    margin-left: 45%;
-    text-shadow: 0 0 20px white;
-    z-index: -1;
-}
-
-#title {
-    text-transform: uppercase;
-    margin-left: 50%;
-}
-
-#face {
-    margin-top: 5rem;
-    margin-left: 10%;
-    z-index: -2;
-    position: absolute;
-    border: 0.25rem solid lightgrey;
-    height: 50%;
-}
-
-.skillicons {
-    margin: 6rem 0;
-}
-
-ul {
-    font-size: 1.5em;
-    margin-top: 1rem;
-}
-
-.card-img-top {
-    border: 0.25rem solid lightgrey;
-}
-
-form {
-    margin-left: 20%;
-    width: 60%;
-}
-
-.btn {
-    background-color: rgb(42, 42, 185);
-    color: white;
-}
-
-.column {
-    flex-direction: column; 
-}
-
-#projects, #links {
-    background-color: rgb(166, 178, 206);
-}
-
-h3 {
-    color: rgb(42, 42, 185);
-    font-size: 1em;
-    text-align: center;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-h3:hover {
-    color: grey;
-}
-
-.grow { 
-    transition: all .5s ease-in-out; 
-}
-
-.grow:hover { 
-    transform: scale(1.1); 
-}
-
-.container {
-    padding: 0;
-}
-
-.startimage {
-    opacity: 1;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
-
-.middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    width: 85%;
-}
-
-.container:hover .startimage {
-    opacity: 0.3;
-}
-
-.container:hover .middle {
-    opacity: 1;
+    margin-bottom: 2rem;
 }
 
 .rainy {
     background-color: lightgrey;
     color: rgb(42, 42, 185);
-    font-size: 140%;
+    font-size: 80%;
     padding: 0;
     margin: 0;
-}
-
-.text{
-    background-color: lightgrey;
-    color: rgb(42, 42, 185);
-    padding: 2rem;
-}
-
-.chirper {
-    font-size: 125%;
-}
-
-#cap {
-    text-transform: uppercase;
-    text-align:center;
-    margin:30px 0;
 }
 
 .red a:link, .red a:visited {
@@ -215,22 +145,56 @@ h3:hover {
     font-weight: bold;
 }
 
-.description a:hover{
+#resume {
+    color: grey;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+#resume:hover {
+    color: rgb(42, 42, 185);
     font-style: italic;
 }
 
-#topBtn {
+.row {
     display: none;
+}
+
+.skillicons {
+    margin: 1rem 0;
+}
+
+.text{
+    background-color: lightgrey;
+    color: rgb(42, 42, 185);
+    /* padding: 2rem; */
+}
+
+#title {
+    text-transform: uppercase;
+    /* margin-left: 50%; */
+}
+
+#topBtn {
+    /* display: none;
     position: fixed;
-    bottom: 20px;
+    bottom: 30%;
     right: 30px;
-    z-index: 99;
-    font-size: 18px;
+    z-index: 99; */
+    font-size: 30%;
     background-color: rgb(42, 42, 185);
     color: white;
     cursor: pointer;
-    padding: 15px;
+    /* padding: 15px; */
     border-radius: 50%;
+}
+
+#topBtn:hover {
+    background-color: #555;
+}
+
+ul {
+    font-size: 80%;
 }
 
 /***************** timeline ******************/
