@@ -9,12 +9,6 @@ body {
     vertical-align: middle;
 }
 
-#resume {
-    margin-left: 57%;
-    color: grey;
-    font-weight: bold;
-}
-
 #resume:hover {
     color: rgb(42, 42, 185);
     font-style: italic;
@@ -25,107 +19,292 @@ body {
     align-items: flex-end;
 }
 
-#panel {
-    margin-bottom: 10rem;
+#topBtn:hover {
+    background-color: #555;
 }
 
-.header-left {
-    border: 0.25rem solid black;
-    width: 10%;   
-    margin: 5rem 10rem;
-}
-
-.nav-item {
-    border-bottom: 0.25rem solid rgb(42, 42, 185);
-    padding:0 3rem;
-    display: inline;
-    margin: 0.5rem;
-}
-
-.navbar {
-    margin-right: 10rem;
-}
-
-h1 {
-    font-size: 5em;
-}
-h2 {
-    font-size: 2.5em;
+.bold {
     font-weight: bold;
 }
 
-h4 {
-    font-size: 1.5em;
-}
-
-#me {
-    color: rgb(42, 42, 185);
-    margin-top: 15rem;
-    margin-left: 45%;
-    text-shadow: 0 0 20px white;
-    z-index: -1;
-}
-
-#title {
-    text-transform: uppercase;
-    margin-left: 50%;
-}
-
-#face {
-    margin-top: 5rem;
-    margin-left: 10%;
-    z-index: -2;
-    position: absolute;
-    border: 0.25rem solid lightgrey;
-}
-
-.skillicons {
-    margin: 6rem 0;
-}
-
-ul {
-    font-size: 1.5em;
-}
-
-.info, #textbox {
-    color: grey
-}
-
-ul {
-    margin-top: 1rem;
-}
-
-.card-img-top {
-    border: 0.25rem solid lightgrey;
-}
-
-form {
-    margin-left: 20%;
-    width: 60%;
-}
-
-input {
+.italic {
     font-style: italic;
 }
 
-.btn {
+
+
+
+
+
+@media(max-width:799px){
+    #resume {
+        color: grey;
+        font-weight: bold;
+    }
+    #panel {
+        margin-bottom: 2rem;
+    }
+/* 
+    .header-left {
+        border: 0.25rem solid black;
+        width: 10%;   
+        margin: 5rem 10rem;
+    } */
+
+    .nav-item {
+        border-bottom: 0.25rem solid rgb(42, 42, 185);
+        padding:0 3rem;
+        display: inline;
+        margin: 0.5rem;
+    }
+
+    .navbar {
+        margin-right: 10rem;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+    h2 {
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    h4 {
+        font-size: 1.5em;
+    }
+
+    #me {
+        color: rgb(42, 42, 185);
+        margin-top: 15rem;
+        margin-left: 45%;
+        text-shadow: 0 0 20px white;
+        z-index: -1;
+    }
+
+    #title {
+        text-transform: uppercase;
+        margin-left: 50%;
+    }
+
+    #face {
+        margin-top: 5rem;
+        margin-left: 10%;
+        z-index: -2;
+        position: absolute;
+        border: 0.25rem solid lightgrey;
+    }
+
+    .skillicons {
+        margin: 6rem 0;
+    }
+
+    ul {
+        font-size: 1.5em;
+    }
+
+    .info, #textbox {
+        color: grey
+    }
+
+    ul {
+        margin-top: 1rem;
+    }
+
+    .card-img-top {
+        border: 0.25rem solid lightgrey;
+    }
+
+    form {
+        margin-left: 20%;
+        width: 60%;
+    }
+
+    input {
+        font-style: italic;
+    }
+
+    .btn {
+        background-color: rgb(42, 42, 185);
+        color: white;
+    }
+
+    .column {
+        flex-direction: column; 
+    }
+
+    #projects, #links {
+        background-color: rgb(166, 178, 206);
+    }
+
+    h3 {
+        color: rgb(42, 42, 185);
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .rainy {
+        background-color: lightgrey;
+        color: rgb(42, 42, 185);
+        font-size: 140%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .text{
+        background-color: lightgrey;
+        color: rgb(42, 42, 185);
+        padding: 2rem;
+    }
+    
+    .chirper {
+        font-size: 125%;
+    }
+    
+    #cap {
+        text-transform: uppercase;
+        text-align:center;
+        margin:30px 0;
+    }
+    
+    .red a:link, .red a:visited {
+        color: #f54957;
+        font-weight: bold;
+    }
+    
+    .orange a:link, .orange a:visited{
+        color: #f9850f;
+        font-weight: bold;
+    }
+    
+    .description a:hover{
+        font-style: italic;
+    }
+    
+    #topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
     background-color: rgb(42, 42, 185);
     color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    }
 }
 
-.column {
-    flex-direction: column; 
-}
 
-#projects, #links {
-    background-color: rgb(166, 178, 206);
-}
+@media (min-width:1024px){
+    #resume {
+        margin-left: 57%;
+        color: grey;
+        font-weight: bold;
+    }
 
-h3 {
-    color: rgb(42, 42, 185);
-    font-size: 1em;
-    text-align: center;
-}
+    #panel {
+        margin-bottom: 10rem;
+    }
+/* 
+    .header-left {
+        border: 0.25rem solid black;
+        width: 10%;   
+        margin: 5rem 10rem;
+    } */
+
+    .nav-item {
+        border-bottom: 0.25rem solid rgb(42, 42, 185);
+        padding:0 3rem;
+        display: inline;
+        margin: 0.5rem;
+    }
+
+    .navbar {
+        margin-right: 10rem;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+    h2 {
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    h4 {
+        font-size: 1.5em;
+    }
+
+    #me {
+        color: rgb(42, 42, 185);
+        margin-top: 15rem;
+        margin-left: 45%;
+        text-shadow: 0 0 20px white;
+        z-index: -1;
+    }
+
+    #title {
+        text-transform: uppercase;
+        margin-left: 50%;
+    }
+
+    #face {
+        margin-top: 5rem;
+        margin-left: 10%;
+        z-index: -2;
+        position: absolute;
+        border: 0.25rem solid lightgrey;
+    }
+
+    .skillicons {
+        margin: 6rem 0;
+    }
+
+    ul {
+        font-size: 1.5em;
+    }
+
+    .info, #textbox {
+        color: grey
+    }
+
+    ul {
+        margin-top: 1rem;
+    }
+
+    .card-img-top {
+        border: 0.25rem solid lightgrey;
+    }
+
+    form {
+        margin-left: 20%;
+        width: 60%;
+    }
+
+    input {
+        font-style: italic;
+    }
+
+    .btn {
+        background-color: rgb(42, 42, 185);
+        color: white;
+    }
+
+    .column {
+        flex-direction: column; 
+    }
+
+    #projects, #links {
+        background-color: rgb(166, 178, 206);
+    }
+
+    h3 {
+        color: rgb(42, 42, 185);
+        font-size: 1em;
+        text-align: center;
+    }
 
 a:hover {
     text-decoration: none;
@@ -223,17 +402,6 @@ cursor: pointer;
 padding: 15px;
 border-radius: 50%;
 }
-
-#topBtn:hover {
-background-color: #555;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.italic {
-    font-style: italic;
 }
 
 /***************** timeline ******************/
