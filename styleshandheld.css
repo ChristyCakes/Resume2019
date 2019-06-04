@@ -102,11 +102,11 @@ input {
 
 #me {
     color: rgb(42, 42, 185);
-    margin-top: 3rem;
-    margin-left: 50%;
+    margin-top: 0.5rem;
+    margin-left: 0;
     text-shadow: 0;
-    z-index: -1;
-    text-align: left;
+    z-index: 1;
+    text-align: center;
 }
 
 #name {
