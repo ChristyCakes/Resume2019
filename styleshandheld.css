@@ -50,9 +50,8 @@ body {
 }
 
 #face {
-    margin: auto;
+    margin: 1rem 0;
     border: 0.25rem solid lightgrey;
-    /* height: 100%; */
 }
 
 form {
@@ -125,11 +124,11 @@ input {
     align-items: center;
 }
 
-#nameandin.a {
+#nameandin a {
     display: none;
 }
 
-.navbar {
+.navbar > * {
     display: none;
 }
 
