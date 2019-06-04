@@ -55,10 +55,6 @@ form {
     width: 60%;
 }
 
-.git {
-    display: none;
-}
-
 .grow { 
     transition: all .5s ease-in-out; 
     height: 3em;
@@ -122,6 +118,10 @@ input {
 #nameandgit {
     display: flex;
     align-items: center;
+}
+
+#nameandgit a, #nameandgit img {
+    display: none;
 }
 
 nav {
