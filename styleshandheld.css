@@ -25,6 +25,7 @@ body {
 .col-1 {
     margin: 1em;
     padding: 0;
+    flex: 0 0 50%;
 }
 
 .chirper {
