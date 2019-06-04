@@ -55,6 +55,10 @@ form {
     width: 60%;
 }
 
+.git {
+    display: none;
+}
+
 .grow { 
     transition: all .5s ease-in-out; 
     height: 3em;
@@ -115,16 +119,12 @@ input {
     vertical-align: middle;
 }
 
-#nameandin {
+#nameandgit {
     display: flex;
     align-items: center;
 }
 
-#nameandin a {
-    display: none;
-}
-
-.navbar > * {
+nav {
     display: none;
 }
 
