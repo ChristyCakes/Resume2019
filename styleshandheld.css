@@ -26,10 +26,6 @@ body {
     font-size: 75%;
 }
 
-.col-3 {
-    padding: 1em;
-}
-
 .column {
     flex-direction: column; 
 }
