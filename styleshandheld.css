@@ -22,6 +22,11 @@ body {
     border: 0.25rem solid lightgrey;
 }
 
+.col-1 {
+    margin: 1em;
+    padding: 0;
+}
+
 .chirper {
     font-size: 75%;
 }
