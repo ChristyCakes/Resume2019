@@ -1,5 +1,5 @@
 body {
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -15,7 +15,7 @@ body {
 #cap {
     text-transform: uppercase;
     text-align:center;
-    /* margin:30px 0; */
+    margin:30px 0;
 }
 
 .card-img-top {
@@ -37,10 +37,6 @@ body {
     flex-direction: column; 
 }
 
-/* .container-fluid {
-    text-align: center;
-} */
-
 .description a:hover{
     font-style: italic;
 }
@@ -55,7 +51,7 @@ body {
 }
 
 form {
-    /* margin-left: 20%; */
+    margin-left: 20%;
     width: 60%;
 }
 
@@ -106,7 +102,7 @@ input {
 
 #me {
     color: rgb(42, 42, 185);
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-left: 50%;
     text-shadow: 0;
     z-index: -1;
@@ -187,7 +183,7 @@ input {
 .text{
     background-color: lightgrey;
     color: rgb(42, 42, 185);
-    /* padding: 2rem; */
+    padding: 2rem;
 }
 
 #title {
