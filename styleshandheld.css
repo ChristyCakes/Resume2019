@@ -22,15 +22,11 @@ body {
     border: 0.25rem solid lightgrey;
 }
 
-[class*="col-"] {
-    width: 100%;
-  }
-
 .col-1 {
     margin: 1em;
     padding: 0;
     flex: 0 0 50%;
-    /* max-width: 6%; */
+    max-width: 6%;
 }
 
 .chirper {
@@ -128,7 +124,7 @@ input {
     display: none;
 }
 
-nav {
+nav, nav > * {
     display: none;
 }
 
