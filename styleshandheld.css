@@ -26,6 +26,7 @@ body {
     margin: 1em;
     padding: 0;
     flex: 0 0 50%;
+    max-width: 6%;
 }
 
 .chirper {
@@ -107,8 +108,8 @@ input {
 #me {
     color: rgb(42, 42, 185);
     margin-top: 2rem;
-    margin-left: 45%;
-    text-shadow: 0 0 20px white;
+    margin-left: 20rem;
+    text-shadow: 0;
     z-index: -1;
 }
 
@@ -139,6 +140,10 @@ input {
     padding: 0;
 }
 
+.p-5 {
+    padding: 2rem;
+}
+
 #panel {
     margin-bottom: 2rem;
 }
@@ -160,6 +165,8 @@ input {
     color: grey;
     font-weight: bold;
     font-size: 110%;
+    text-align: center;
+    margin-left: 24rem;
 }
 
 #resume:hover {
@@ -169,6 +176,7 @@ input {
 
 .row {
     margin: 0;
+    flex-wrap: nowrap;
 }
 
 .skillicons {
@@ -183,7 +191,7 @@ input {
 
 #title {
     text-transform: uppercase;
-    margin-left: 0;
+    margin-left: 9rem;
     text-align: center;
 }
 
