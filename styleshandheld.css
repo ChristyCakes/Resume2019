@@ -19,7 +19,7 @@ body {
 }
 
 .card-img-top {
-    border: 0.25rem solid red;
+    border: 0.25rem solid lightgrey;
 }
 
 .chirper {
@@ -43,11 +43,8 @@ body {
 }
 
 #face {
-    /* margin-top: 5rem;
-    margin-left: 10%;
-    z-index: -2;
-    position: absolute; */
-    border: 0.25rem solid lightgrey;
+    margin: auto;
+    border: 0.25rem solid red;
     height: 100%;
 }
 
