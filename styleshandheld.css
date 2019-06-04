@@ -124,7 +124,7 @@ input {
     display: none;
 }
 
-nav, nav > * {
+.navbar, .navbar > * {
     display: none;
 }
 
