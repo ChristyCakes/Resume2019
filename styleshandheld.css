@@ -19,7 +19,7 @@ body {
 }
 
 .card-img-top {
-    border: 0.25rem solid lightgrey;
+    border: 0.25rem solid red;
 }
 
 .chirper {
@@ -36,6 +36,10 @@ body {
 
 .description a:hover{
     font-style: italic;
+}
+
+.d-inline, .d-inline-flex {
+    display: flex;
 }
 
 #face {
