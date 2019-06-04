@@ -108,9 +108,10 @@ input {
 #me {
     color: rgb(42, 42, 185);
     margin-top: 2rem;
-    margin-left: 20rem;
+    margin-left: 50%;
     text-shadow: 0;
     z-index: -1;
+    text-align: left;
 }
 
 #name {
@@ -141,7 +142,7 @@ input {
 }
 
 .p-5 {
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 #panel {
@@ -165,8 +166,8 @@ input {
     color: grey;
     font-weight: bold;
     font-size: 110%;
-    text-align: center;
-    margin-left: 24rem;
+    text-align: left;
+    margin-left: 57%;
 }
 
 #resume:hover {
@@ -191,8 +192,8 @@ input {
 
 #title {
     text-transform: uppercase;
-    margin-left: 9rem;
-    text-align: center;
+    margin-left: 47%;
+    text-align: left;
 }
 
 #topBtn {
