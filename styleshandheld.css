@@ -106,10 +106,10 @@ input {
 
 #me {
     color: rgb(42, 42, 185);
-    /* margin-top: 15rem; */
-    /* margin-left: 45%; */
+    margin-top: 2rem;
+    margin-left: 45%;
     text-shadow: 0 0 20px white;
-    /* z-index: -1; */
+    z-index: -1;
 }
 
 #name {
