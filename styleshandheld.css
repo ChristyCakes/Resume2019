@@ -125,11 +125,12 @@ input {
     align-items: center;
 }
 
-.nav-item {
-    border-bottom: 0.25rem solid rgb(42, 42, 185);
-    /* padding:0 3rem; */
-    display: inline;
-    /* margin: 0.5rem; */
+#nameandin.a {
+    display: none;
+}
+
+.navbar {
+    display: none;
 }
 
 .orange a:link, .orange a:visited{
