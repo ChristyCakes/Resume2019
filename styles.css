@@ -92,7 +92,7 @@ h4 {
 
 #me {
     color: rgb(42, 42, 185);
-    margin-top: 10%;
+    margin-top: 15%;
     margin-left: 45%;
     text-shadow: 0 0 20px white;
     z-index: -1;
@@ -200,7 +200,7 @@ h3:hover {
 .rainy {
     background-color: lightgrey;
     color: rgb(42, 42, 185);
-    font-size: 100%;
+    font-size: 90%;
     padding: 0;
     margin: 0;
 }
@@ -212,7 +212,7 @@ h3:hover {
 }
 
 .chirper {
-    font-size: 100%;
+    font-size: 90%;
 }
 
 #cap {
