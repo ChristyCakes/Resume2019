@@ -111,13 +111,14 @@ input {
 
 #name {
     color: rgb(42, 42, 185);
-    display: inline;
-    vertical-align: middle;
+    display: flex;
+    text-align: center;
 }
 
 #nameandgit {
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 #nameandgit a, #nameandgit img {
