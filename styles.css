@@ -187,7 +187,6 @@ h3:hover {
     -moz-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     width: 95%;
-    height: 95%;
 }
 
 .container:hover .startimage {
