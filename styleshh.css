@@ -59,7 +59,8 @@ img {
 }
 
 .skills img {
-  width: 50rem;
+  max-width: 3rem;
+  padding: 1rem;
 }
 
 #title {
