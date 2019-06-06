@@ -55,12 +55,12 @@ img {
 }
 
 .skills {
-  margin: 2rem;
+  margin: 4rem 0;
 }
 
 .skills img {
-  max-width: 3rem;
-  padding: 1rem;
+  max-width: 4rem;
+  padding: 10%;
 }
 
 #title {
