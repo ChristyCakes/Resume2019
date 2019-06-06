@@ -20,6 +20,10 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+#face {
+  border: 0.25rem solid lightgrey;
+}
+
 .grow {
   max-width: 20%;
 }
@@ -38,6 +42,19 @@ img {
     height: auto;
 }
 
+#me {
+  color: rgb(42, 42, 185);
+}
+
+#resume:hover {
+  color: grey;
+  font-weight: bold;
+  text-decoration-style: dotted;
+}
+
+#title {
+  text-transform: uppercase;
+}
 
 
 
