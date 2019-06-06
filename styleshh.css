@@ -1,6 +1,7 @@
 .bodycontainer {
   margin: auto;
   text-align: center;
+  font-family: 'Varela Round', sans-serif;
 }
 
 [class*="col-"] {
@@ -49,7 +50,7 @@ img {
 #resume {
   color: grey;
   font-weight: bold;
-  text-decoration-style: dotted;
+  border-bottom: dotted 1px;
 }
 
 .skills {
