@@ -1,3 +1,8 @@
+.bodycontainer {
+  margin: auto;
+  text-align: center;
+}
+
 [class*="col-"] {
     margin: 1%;
   }
@@ -25,7 +30,7 @@ html {
 }
 
 img {
-    max-width: 30%;
+    max-width: 50%;
     height: auto;
 }
 
