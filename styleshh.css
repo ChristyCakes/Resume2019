@@ -56,6 +56,10 @@ img {
   font-size: 85%;
 }
 
+.row {
+  margin-right: 0;
+}
+
 .skills {
   margin: 4rem 0;
 }
