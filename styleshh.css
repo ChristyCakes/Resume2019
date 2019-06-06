@@ -113,6 +113,10 @@ img {
   font-size: 85%;
 }
 
+#navbar ul {
+  margin: 1rem;
+}
+
 .writingsample {
   color: #f9850f;
   border-bottom: dotted 1px;
