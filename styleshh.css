@@ -55,6 +55,7 @@ img {
 
 .skills {
   margin: 2rem;
+  justify-content: center;
 }
 
 #title {
