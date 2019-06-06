@@ -51,6 +51,7 @@ img {
   color: grey;
   font-weight: bold;
   border-bottom: dotted 1px;
+  font-size: 85%;
 }
 
 .skills {
@@ -58,7 +59,7 @@ img {
 }
 
 .skills img {
-  width: 20rem;
+  width: 50rem;
 }
 
 #title {
