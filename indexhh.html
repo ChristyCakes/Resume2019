@@ -235,10 +235,9 @@
     </div>
 
     <script>
-        function clickFunction(imgclassname) {
-            const projectimg = $(imgclassname);
-            const features = $(imgclassname).next(".features");
-            projectimg.replace($(features))
+        function clickFunction(imgClassName) {
+            const features = $(imgClassName).next(".features");
+            $(imgclassname).replace(features);
 
         }
     </script>
