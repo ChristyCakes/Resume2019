@@ -103,7 +103,7 @@
 
             <div class="row">
                 <div class='col-12'>
-                    <button onclick="clickFunction()"><img src="./images/blogpic.png" alt="Blog" id="#blogimg"></button>
+                    <button id="btn" onclick="clickFunction()"><img src="./images/blogpic.png" alt="Blog" id="blogimg"></button>
 
                     <!-- <div class='features'>Features:
                         <ul>
@@ -239,7 +239,7 @@
     <script>
         function clickFunction() {
             $("#blogimg").replaceWith(
-                `<div>Features:
+                `<div class="features">Features:
                         <ul>
                         <li>HTML/React Frontend</li>
                         <li>Bootstrap & CSS</li>
