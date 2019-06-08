@@ -10,6 +10,11 @@
   width: 100%;
 }
 
+button {
+  background-size: cover;
+  border: none;
+}
+
 [class*="col-"] {
     margin: 1%;
   }
