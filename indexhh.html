@@ -236,6 +236,7 @@
 
     <script>
         function clickFunction(projimg) {
+            const projimg = $(projimg);
             const features = $(projimg).next(".features");
             if ( features.css("display", "none")){
                 projimg.css("display", "none");
