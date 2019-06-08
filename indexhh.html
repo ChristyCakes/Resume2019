@@ -238,20 +238,10 @@
         function clickFunction(imgclassname) {
             const projectimg = $(imgclassname);
             const features = $(imgclassname).next(".features");
-            // if ( features.css("display", "none")){
-            //     projectimg.css("display", "none");
-            //     features.css("display", "inline-block");
-            // } else {
-            //     projectimg.css("display", "inline-block");
-            //     features.css("display", "none");
-            // }
-
-
-            if ( projectimg.css("display", "inline-block")){
-                console.log("selected projectimg and it's display is inline-block")
-            } else {
-                console.log("selected projectimg but display is NOT inline-block")
-            }
+                if (projectimg.css("display", "inline-block")){
+                    projectimg.css("display", "none");
+                    console.log("projectimg display changed from inline block to none")
+                }
 
         }
     </script>
