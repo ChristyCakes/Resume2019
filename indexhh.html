@@ -237,7 +237,7 @@
     <script>
         function clickFunction(imgclassname) {
             const projectimg = $(imgclassname);
-            const features = $(imgclass).next(".features");
+            const features = $(imgclassname).next(".features");
             if ( features.css("display", "none")){
                 projectimg.css("display", "none");
                 features.css("display", "inline-block");
