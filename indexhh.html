@@ -103,7 +103,7 @@
 
             <div class="row">
                 <div class='col-12'>
-                    <button id="btn" onclick="clickFunction(this.class)"><img src="./images/blogpic.png" alt="Blog" class="projimg"></button>
+                    <button id="btn" onclick="clickFunction(this.id)"><img src="./images/blogpic.png" alt="Blog"></button>
                     <div class="features">Rainy Day Blog:
                             <ul>
                             <li>HTML/React Frontend</li>
@@ -235,11 +235,10 @@
     </div>
 
     <script>
-        function clickFunction(imgClassName) {
-            const features = $(imgClassName).next(".features");
-console.log(features)
-console.log(imgClassName)
-            // $(imgClassName).replace(features);
+        function clickFunction(btnId) {
+            const projimg = $(btnId).next("image")
+            const features = $(btnId).next(".features");
+            $(projimg).replace(features);
 
         }
     </script>
