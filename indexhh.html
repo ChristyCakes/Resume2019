@@ -235,9 +235,9 @@
     </div>
 
     <script>
-        function clickFunction(projimg) {
-            const projectimg = $(projimg);
-            const features = $(projimg).next(".features");
+        function clickFunction(imgclassname) {
+            const projectimg = $(imgclassname);
+            const features = $(imgclass).next(".features");
             if ( features.css("display", "none")){
                 projectimg.css("display", "none");
                 features.css("display", "inline-block");
