@@ -236,13 +236,13 @@
 
     <script>
         function clickFunction(projimg) {
-            const projimg = $(projimg);
+            const projectimg = $(projimg);
             const features = $(projimg).next(".features");
             if ( features.css("display", "none")){
-                projimg.css("display", "none");
+                projectimg.css("display", "none");
                 features.css("display", "inline-block");
             } else {
-                projimg.css("display", "inline-block");
+                projectimg.css("display", "inline-block");
                 features.css("display", "none");
             }
         }
