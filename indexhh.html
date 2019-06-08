@@ -238,13 +238,21 @@
         function clickFunction(imgclassname) {
             const projectimg = $(imgclassname);
             const features = $(imgclassname).next(".features");
-            if ( features.css("display", "none")){
-                projectimg.css("display", "none");
-                features.css("display", "inline-block");
+            // if ( features.css("display", "none")){
+            //     projectimg.css("display", "none");
+            //     features.css("display", "inline-block");
+            // } else {
+            //     projectimg.css("display", "inline-block");
+            //     features.css("display", "none");
+            // }
+
+
+            if ( projectimg.css("display", "inline-block")){
+                console.log("selected projectimg and it's display is inline-block")
             } else {
-                projectimg.css("display", "inline-block");
-                features.css("display", "none");
+                console.log("selected projectimg but display is NOT inline-block")
             }
+
         }
     </script>
     <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
