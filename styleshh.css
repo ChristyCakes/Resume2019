@@ -37,7 +37,9 @@
 }
 
 .features {
-  background: lightgrey;
+  background: white;
+  text-align: left;
+  display: none;
 }
 
 .grow {
