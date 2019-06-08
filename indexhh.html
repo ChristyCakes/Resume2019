@@ -103,7 +103,7 @@
 
             <div class="row">
                 <div class='col-12'>
-                    <button id="btn" onclick="clickFunction()"><img src="./images/blogpic.png" alt="Blog" id="blogimg"></button>
+                    <button id="btn" onclick="clickFunction()"><img src="./images/blogpic.png" alt="Blog" class="projimg"></button>
 
                     <!-- <div class='features'>Features:
                         <ul>
@@ -123,7 +123,7 @@
         <div class="row">
             <!-- ethos -->
             <div class="col-12">
-                <button><img src="./images/verseapp.png" alt="Ethos"></button>
+                <button id="btn"><img src="./images/verseapp.png" alt="Ethos"></button>
 
                 <!-- click once -->
                 <!-- <div>This MERN app displays data from a third party API and
@@ -136,7 +136,7 @@
         <div class="row">
             <!-- chirper -->
             <div class='col-123'>
-                <button><img src="./images/chirper.png" alt="Chirper"></button>
+                <button id="btn"><img src="./images/chirper.png" alt="Chirper"></button>
                 <!-- click once -->
                 <!-- <div>
                     Users of this app create, read, update, & delete
@@ -238,7 +238,7 @@
 
     <script>
         function clickFunction() {
-            $("#blogimg").replaceWith(
+            $(".projimg").replaceWith(
                 `<div class="features">Features:
                         <ul>
                         <li>HTML/React Frontend</li>
