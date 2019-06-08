@@ -236,10 +236,14 @@
 
     <script>
         function clickFunction(projimg) {
-            const features = $(projimg).next(".features")
+            const features = $(projimg).next(".features");
             if ( features.css("display", "none")){
-                console.log("none")
-            } 
+                projimg.css("display", "none");
+                features.css("display", "inline-block");
+            } else {
+                projimg.css("display", "inline-block");
+                features.css("display", "none");
+            }
         }
     </script>
     <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
