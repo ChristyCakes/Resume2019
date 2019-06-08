@@ -103,7 +103,7 @@
 
             <div class="row">
                 <div class='col-12'>
-                    <button id="btn" onclick="clickFunction(this.id)"><img src="./images/blogpic.png" alt="Blog" class="projectimage"></button>
+                    <button id="btn1" onclick="clickFunction(this.id)"><img src="./images/blogpic.png" alt="Blog" class="projectimage"></button>
                     <div class="features">Rainy Day Blog:
                             <ul>
                             <li>HTML/React Frontend</li>
@@ -236,15 +236,21 @@
 
     <script>
         function clickFunction(btnId) {
-            const projimg = $(btnId).next(".projectimage")
-            const features = $(btnId).next(".features");
+            // const projimg = $(btnId).next(".projectimage")
+            // const features = $(btnId).next(".features");
 
-            console.log(projimg) // w
-            console.log(features)  // w  
+            // console.log(projimg) // w
+            // console.log(features)  // w  
 
-            // $(projimg).replace(features);
+            // // $(projimg).replace(features);  //projimg.features is not
 
-            features.css("display", "inline-block")
+            // features.css("display", "inline-block")  // nothing happens
+
+
+            const projimg = document.getElementById(`${btnId}`)
+            const features = document.getElementById(`${btnId}`).nextSibling.innerHTML;
+            console.log(projimg.style.display)
+            console.log(features)
 
         }
     </script>
