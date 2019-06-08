@@ -237,7 +237,7 @@
     <script>
         function clickFunction(projimg) {
             const features = $(projimg).next(".features")
-            if ( features.style.display === "none"){
+            if ( features.css("display", "none")){
                 console.log("none")
             } 
         }
