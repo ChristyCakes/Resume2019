@@ -236,10 +236,11 @@
 
     <script>
         function clickFunction(imgclassname) {
-            const projectimg = $(imgclassname);
+            const projectimg = $(imgclassname).css("display");
             const features = $(imgclassname).next(".features");
                 // console.log(projectimg.css("display"))  //undefined
-                console.log(projectimg.style)
+                // console.log(projectimg.style) // undefined
+                console.log(projectimg)
 
         }
     </script>
