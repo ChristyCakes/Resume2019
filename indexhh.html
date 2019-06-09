@@ -238,10 +238,8 @@
     <script>
         function clickFunction(btn) {
             
-            const projimg = $(btn);
-            const features = $(btn);
-            // const projimg = $(btn).next(".projectimage");
-            // const features = $(btn).next(".features");
+            const projimg = $(`.${btn}`).next(".projectimage");
+            const features = $(`.${btn}`).next(".features");
 
             console.log(getComputedStyle(projimg).display); //
             console.log(getComputedStyle(features).display); //
