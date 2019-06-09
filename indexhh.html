@@ -237,12 +237,12 @@
 
     <script>
         function clickFunction(btn) {
-            
+            // using button's classname, select next element with classname projectimage (the button's image) and the next element with classname features
             const projimg = $(`.${btn}`).next(".projectimage");
             const features = $(`.${btn}`).next(".features");
 
-            console.log(getComputedStyle(projimg).display); //
-            console.log(getComputedStyle(features).display); //
+            console.log(getComputedStyle(projimg)); // 
+            console.log(getComputedStyle(features)); //
 
             // console.log(projimg) // w
             // console.log(features)  // w  
