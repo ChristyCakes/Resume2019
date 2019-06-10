@@ -1,5 +1,5 @@
 #aboutme {
-  margin: 3rem 0;
+  margin: 1rem 0;
 }
 
 .bodycontainer {
@@ -43,7 +43,8 @@
 }
 
 .github {
-  max-width: 15%
+  max-width: 15%;
+  float: right;
 }
 
 .grow {
@@ -104,6 +105,11 @@ img {
 #navbar ul {
   margin: 0.5rem;
   padding-inline-start: 0;
+}
+
+#projects {
+  margin-bottom: 2rem;
+  padding: 1rem 0;
 }
 
 .projimg {
