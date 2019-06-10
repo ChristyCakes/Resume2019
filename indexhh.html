@@ -103,49 +103,55 @@
 
             <div class="row">
                 <div class='col-12'>
-                    <button class="btn" onclick="clickFunction(this.class)"><img src="./images/blogpic.png" alt="Blog"
-                            class="projectimage"></button>
-                    <div class="features">Rainy Day Blog:
-                        <ul>
-                            <li>HTML/React Frontend</li>
-                            <li>Bootstrap & CSS</li>
-                            <li>Login authentication</li>
-                            <li>Express.JS REST API</li>
-                            <li>Many-to-many MySQL db</li>
-                            <li>Deployment on AWS</li>
-                        </ul>
-                        <a href="https://github.com/christycakes/blogapp" target="_blank">SEE CODE</a>
-                    </div>
+                    <button id="btn" onclick="clickFunction(this)"><img src="./images/blogpic.png" alt="Blog"
+                            style="display: inline-block">
+                        <!-- toggle tap -->
+                        <div class="features">Rainy Day Blog:
+                            <ul>
+                                <li>HTML/React Frontend</li>
+                                <li>Bootstrap & CSS</li>
+                                <li>Login authentication</li>
+                                <li>Express.JS REST API</li>
+                                <li>Many-to-many MySQL db</li>
+                                <li>Deployment on AWS</li>
+                            </ul>
+                            <a href="https://github.com/christycakes/blogapp" target="_blank">SEE CODE</a>
+                        </div>
+                    </button>
                 </div>
             </div>
         </div>
         <div class="row">
             <!-- ethos -->
             <div class="col-12">
-                <button id="btn"><img src="./images/verseapp.png" alt="Ethos"></button>
-
-                <!-- click once -->
-                <!-- <div>This MERN app displays data from a third party API and
-                    collects feedback metrics
-                    with users' votes for each response. Click to see the code.
-                    <a class="bold italic" href="https://github.com/ChristyCakes/VerseApp" target="_blank">Click to SEE CODE</a>
-                </div> -->
+                <button id="btn" onclick="clickFunction(this)"><img src="./images/verseapp.png" alt="Ethos"
+                        style="display: inline-block">
+                    <!-- toggle tap -->
+                    <div class="features" style="display: none">This MERN app displays data from a third party API and
+                        collects feedback metrics
+                        with users' votes for each response. Click to see the code.
+                        <a class="bold italic" href="https://github.com/ChristyCakes/VerseApp" target="_blank">Click to
+                            SEE CODE</a>
+                    </div>
+                </button>
             </div>
         </div>
         <div class="row">
             <!-- chirper -->
             <div class='col-123'>
-                <button id="btn"><img src="./images/chirper.png" alt="Chirper"></button>
-                <!-- click once -->
-                <!-- <div>
-                    Users of this app create, read, update, & delete
-                    tweets and can purchase followers using the
-                    Stripe API via an embedded form. Chirper was deployed with Heroku.
-                    <a class="bold italic" href="https://mighty-journey-57948.herokuapp.com/" target="_blank">VISIT
-                        CHIRPER</a> or <a class="bold italic" href="https://github.com/christycakes/chirper"
-                        target="_blank">SEE
-                        CODE</a>
-                </div> -->
+                <button id="btn" onclick="clickFunction(this)"><img src="./images/chirper.png" alt="Chirper"
+                        style="display: inline-block">
+                    <!-- toggle tap -->
+                    <div class="features" style="display: none">
+                        Users of this app create, read, update, & delete
+                        tweets and can purchase followers using the
+                        Stripe API via an embedded form. Chirper was deployed with Heroku.
+                        <a class="bold italic" href="https://mighty-journey-57948.herokuapp.com/" target="_blank">VISIT
+                            CHIRPER</a> or <a class="bold italic" href="https://github.com/christycakes/chirper"
+                            target="_blank">SEE
+                            CODE</a>
+                    </div>
+                </button>
             </div>
         </div>
     </div>
@@ -237,22 +243,16 @@
 
     <script>
         function clickFunction(btn) {
-            // using button's classname, select next element with classname projectimage (the button's image) and the next element with classname features
-            const projimg = $(`.${btn}`).next(".projectimage");
-            const features = $(`.${btn}`).next(".features");
+            const projectimage = btn.firstElementChild;
+            const feats = btn.lastElementChild;
 
-            console.log(getComputedStyle(projimg)); // 
-            console.log(getComputedStyle(features)); //
-
-            // console.log(projimg) // w
-            // console.log(features)  // w  
-            // // $(projimg).replace(features);  //projimg.features is not
-
-            // features.css("display", "inline-block")  // nothing happens
-
-            // const projimg = document.getElementById(`${btnId}`)
-            // const features = document.getElementById(`${btnId}`).nextSibling.innerHTML;
-            // console.log(projimg.style.display) // nothing    -----!!!!! see get css styles bookmark  !!!!!!!!
+            if (projectimage.style.display === "inline-block") {
+                projectimage.style.display = "none";
+                feats.style.display = "inline-block";
+            } else {
+                projectimage.style.display = "inline-block";
+                feats.style.display = "none"
+            }
         }
     </script>
     <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
