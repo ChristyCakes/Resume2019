@@ -261,7 +261,13 @@ h3:hover {
   }
 }
 
-@media(max-width:1024px){
+@media (max-width: 1440px){
+    #face {
+        height: 45%;
+    }
+}
+
+@media(max-width:1024px){    
     #me {
         margin-left: 50%;
         font-size: 3em;
