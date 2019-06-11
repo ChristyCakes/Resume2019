@@ -2,6 +2,13 @@ body {
     font-family: 'Varela Round', sans-serif;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+
+
+
 html {
     box-sizing: border-box;
   }
@@ -11,34 +18,6 @@ html {
     box-sizing: inherit;
   }
 
-#name {
-    display: inline;
-    color: rgb(42, 42, 185);
-    vertical-align: middle;
-}
-
-#resume:hover {
-    color: rgb(42, 42, 185);
-    font-style: italic;
-}
-
-#nameandgit {
-    display: flex;
-    align-items: flex-end;
-}
-
-#topBtn:hover {
-    background-color: #555;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.italic {
-    font-style: italic;
-}
-
 .info, #textbox {
     color: grey
 }
@@ -47,13 +26,28 @@ input {
     font-style: italic;
 }
 
-.red a:link, .red a:visited {
-    color: #f54957;
-    font-weight: bold;
+.italic {
+    font-style: italic;
+}
+
+#name {
+    display: inline;
+    color: rgb(42, 42, 185);
+    vertical-align: middle;
+}
+
+#nameandgit {
+    display: flex;
+    align-items: flex-end;
 }
 
 .orange a:link, .orange a:visited{
     color: #f9850f;
+    font-weight: bold;
+}
+
+.red a:link, .red a:visited {
+    color: #f54957;
     font-weight: bold;
 }
 
@@ -62,6 +56,20 @@ input {
     color: grey;
     font-weight: bold;
 }
+#resume:hover {
+    color: rgb(42, 42, 185);
+    font-style: italic;
+}
+
+#topBtn:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
 
 #panel {
     margin-bottom: 10rem;
@@ -81,6 +89,7 @@ input {
 h1 {
     font-size: 5em;
 }
+
 h2 {
     font-size: 2.5em;
     font-weight: bold;
@@ -243,6 +252,31 @@ h3:hover {
     padding: 15px;
     border-radius: 50%;
 }
+
+
+@media(min-width:1921px){
+    .container-fluid {
+      margin: auto;
+      max-width: 80%;
+  }
+}
+
+@media(max-width:1024px){
+    #me {
+        margin-left: 50%;
+        font-sie: 3em;
+    }
+
+    #title {
+        margin-left: 55%;
+    }
+
+    #resume {
+        margin-left: 65%
+    }
+}
+
+
 
 /***************** timeline ******************/
 .main-timeline{position:relative}
