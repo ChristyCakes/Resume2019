@@ -209,7 +209,7 @@ h3:hover {
 .rainy {
     background-color: lightgrey;
     color: rgb(42, 42, 185);
-    font-size: 90%;
+    /* font-size: 90%; */
     padding: 0;
     margin: 0;
 }
@@ -218,11 +218,12 @@ h3:hover {
     background-color: lightgrey;
     color: rgb(42, 42, 185);
     padding: 2rem;
+    font-size: 90%
 }
 
-.chirper {
+/* .chirper {
     font-size: 90%;
-}
+} */
 
 #cap {
     text-transform: uppercase;
@@ -275,6 +276,10 @@ h3:hover {
     #me {
         margin-left: 50%;
         font-size: 3em;
+    }
+
+    .text {
+        font-size: 50%
     }
 
     #title {
