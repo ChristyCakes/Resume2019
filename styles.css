@@ -261,7 +261,7 @@ h3:hover {
   }
 }
 
-@media(max-width:1024px){
+@media(max-width:1440px){
     #me {
         margin-left: 50%;
         font-size: 3em;
