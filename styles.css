@@ -157,6 +157,7 @@ input {
     padding:0 3rem;
     display: inline;
     margin: 0.5rem;
+    font-size: 1.5em;
 }
 
 .orange a:link, .orange a:visited{
@@ -231,11 +232,6 @@ input {
     background-color: #555;
 }
 
-ul {
-    font-size: 1.5em;
-    margin-top: 1rem;
-}
-
 @media(min-width:1921px){
     .container-fluid {
       margin: auto;
@@ -271,8 +267,6 @@ ul {
         margin-left: 65%
     }
 }
-
-
 
 /***************** timeline ******************/
 .main-timeline{position:relative}
