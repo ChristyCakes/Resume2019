@@ -1,4 +1,4 @@
-#aboutme {
+ #aboutme {
   margin: 1rem 0;
 }
 
@@ -13,6 +13,10 @@
 #btn {
   background-size: cover;
   border: none;
+}
+
+#btn > * {
+  border-style: outset
 }
 
 [class*="col-"] {
