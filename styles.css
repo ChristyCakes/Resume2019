@@ -237,6 +237,7 @@ input {
       margin: auto;
       max-width: 80%;
   }
+}
 
 @media (max-width: 1440px){
     #face {
@@ -270,8 +271,6 @@ input {
         margin-left: 65%
     }
 }
-
-
 
 
 }
