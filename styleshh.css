@@ -16,7 +16,7 @@
 }
 
 #btn > * {
-  border: outset #1cbee6;
+  border: outset;
   border-radius: 4%;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(168,163,168,1);
   -moz-box-shadow: 10px 10px 5px 0px rgba(168,163,168,1);
@@ -84,7 +84,10 @@ img {
 
 #links {
   padding: 1rem;
-  background-color: rgb(166, 178, 206);
+}
+
+#links a {
+  padding: 3%;
 }
 
 #me {
