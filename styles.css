@@ -232,6 +232,17 @@ input {
     background-color: #555;
 }
 
+@media(min-width:1921px){
+    .container-fluid {
+      margin: auto;
+      max-width: 80%;
+  }
+
+@media (max-width: 1440px){
+    #face {
+        height: 45%;
+    }
+}
 
 @media(max-width:1024px){    
     #face {
@@ -260,17 +271,9 @@ input {
     }
 }
 
-@media (max-width: 1440px){
-    #face {
-        height: 45%;
-    }
-}
 
-@media(min-width:1921px){
-    .container-fluid {
-      margin: auto;
-      max-width: 80%;
-  }
+
+
 }
 /***************** timeline ******************/
 .main-timeline{position:relative}
