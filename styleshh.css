@@ -94,12 +94,12 @@ img {
 }
 
 #links {
+  margin: 2rem;
   padding: 1rem;
 }
 
 #links a {
   padding: 3%;
-  margin-top: 2%;
 }
 
 #me {
