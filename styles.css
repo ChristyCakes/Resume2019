@@ -232,18 +232,6 @@ input {
     background-color: #555;
 }
 
-@media(min-width:1921px){
-    .container-fluid {
-      margin: auto;
-      max-width: 80%;
-  }
-}
-
-@media (max-width: 1440px){
-    #face {
-        height: 45%;
-    }
-}
 
 @media(max-width:1024px){    
     #face {
@@ -253,6 +241,10 @@ input {
     #me {
         margin-left: 50%;
         font-size: 3em;
+    }
+
+    #panel {
+        margin-bottom: 4rem;
     }
 
     .text {
@@ -268,6 +260,18 @@ input {
     }
 }
 
+@media (max-width: 1440px){
+    #face {
+        height: 45%;
+    }
+}
+
+@media(min-width:1921px){
+    .container-fluid {
+      margin: auto;
+      max-width: 80%;
+  }
+}
 /***************** timeline ******************/
 .main-timeline{position:relative}
 /* .main-timeline:before{content:"";width:5px;height:100%;border-radius:20px;margin:0 auto;background:#242922;position:absolute;top:0;left:0;right:0} */
