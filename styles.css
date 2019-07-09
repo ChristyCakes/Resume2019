@@ -99,6 +99,16 @@ html {
     box-sizing: inherit;
   }
 
+.icon {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.icons {
+    justify-content: flex-end;
+}
+
 .info, #textbox {
     color: grey
 }
