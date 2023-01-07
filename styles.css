@@ -21,6 +21,10 @@ body {
     margin:30px 0;
 }
 
+.card {
+    max-width: 60%;
+}
+
 .card-img-top {
     border: 0.25rem solid lightgrey;
 }
@@ -46,12 +50,10 @@ body {
 }
 
 #face {
-    margin-top: 5rem;
-    margin-left: 10%;
-    z-index: -2;
-    position: absolute;
     border: 0.25rem solid lightgrey;
-    height: 40%;
+    width: 180px;
+    height: 180px;
+    margin-right: 2rem;
 }
 
 form {
@@ -109,6 +111,13 @@ html {
     justify-content: flex-start;
 }
 
+#imagenametitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3rem 0 5rem 0;
+}
+
 .info, #textbox {
     color: grey
 }
@@ -123,14 +132,6 @@ input {
 
 #links, #projects {
     background-color: rgb(166, 178, 206);
-}
-
-#me {
-    color: rgb(42, 42, 185);
-    margin-top: 15%;
-    margin-left: 45%;
-    text-shadow: 0 0 20px white;
-    z-index: -1;
 }
 
 .middle {
@@ -148,18 +149,14 @@ input {
 }
 
 #name {
-    display: inline;
     color: rgb(42, 42, 185);
-    vertical-align: middle;
+    text-shadow: 0 0 20px white;
 }
 
-#nameandgit {
+#nameandtitle {
     display: flex;
-    align-items: flex-end;
-}
-
-.navbar {
-    margin-right: 10rem;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .nav-item {
@@ -173,10 +170,6 @@ input {
 .orange a:link, .orange a:visited{
     color: #f9850f;
     font-weight: bold;
-}
-
-#panel {
-    margin-bottom: 6rem;
 }
 
 .rainy {
@@ -203,7 +196,7 @@ input {
 }
 
 .skillicons {
-    margin: 3rem 0;
+    margin: 4rem 0 1rem 0;
 }
 
 .startimage {
@@ -221,7 +214,8 @@ input {
 
 #title {
     text-transform: uppercase;
-    margin-left: 55%;
+    color: rgb(0,0,0,.5);
+    font-size: 1em;
 }
 
 #topBtn {
@@ -242,45 +236,15 @@ input {
     background-color: #555;
 }
 
-@media(min-width:1921px){
-    .container-fluid {
-      margin: auto;
-      max-width: 80%;
-  }
+#toppanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-@media (max-width: 1440px){
-    #face {
-        height: 45%;
-    }
-}
 
-@media(max-width:1024px){    
-    #face {
-        height: 20%;
-    }
 
-    #me {
-        margin-left: 50%;
-        font-size: 3em;
-    }
 
-    #panel {
-        margin-bottom: 6rem;
-    }
-
-    .text {
-        font-size: 50%
-    }
-
-    #title {
-        margin-left: 55%;
-    }
-
-    #resume {
-        margin-left: 65%
-    }
-}
 
 
 /***************** timeline ******************/
