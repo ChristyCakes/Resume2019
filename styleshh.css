@@ -10,6 +10,11 @@
   width: 100%;
 }
 
+.blue a:link, .blue a:visited{
+  color:#1ebad0;
+  font-weight: bold;
+}
+
 #btn {
   background-size: cover;
   border: none;
@@ -42,6 +47,7 @@
 
 #face {
   border: 0.25rem solid lightgrey;
+  max-height: 60%;
 }
 
 .features {
