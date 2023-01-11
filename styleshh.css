@@ -2,6 +2,10 @@
   margin: 1rem 0;
 }
 
+#anchors {
+  padding-left: 2%;
+}
+
 .bodycontainer {
   margin: auto;
   text-align: center;
@@ -42,7 +46,6 @@
 
 #face {
   border: 0.25rem solid lightgrey;
-  max-height: 20%;
 }
 
 .features {
@@ -157,9 +160,10 @@ img {
 #title {
   text-transform: uppercase;
   font-size: 85%;
+  padding-bottom: 2rem;
 }
 
-#togglelinks {
+.togglelinks {
   padding: 1rem;
 }
 
