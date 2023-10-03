@@ -139,6 +139,10 @@ input {
     font-style: italic;
 }
 
+#instructions {
+    color: rgb(79, 78, 78);
+}
+
 li {
     margin-left: -1rem;
 }

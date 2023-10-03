@@ -87,6 +87,10 @@ img {
   display: inline;
 }
 
+#instructions {
+  color: rgb(79, 78, 78);
+}
+
 #links {
   margin: 2rem;
   padding: 1rem;
